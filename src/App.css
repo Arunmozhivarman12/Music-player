@@ -1,0 +1,268 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+
+
+.back{
+  
+   width: 100% !important;
+   height:auto;
+  padding-bottom: 0px !important;
+   background:linear-gradient( rgba(27, 27, 27, 0.5), rgba(5, 5, 5, 1) ),url(./images/Untitled\ design\ \(1\).png ) no-repeat; 
+   background-position: 35% 65%;
+   background-size: cover;
+   position: relative;
+   
+}
+
+
+.hello{
+
+   max-width: 1100px !important;
+}
+.cntr{
+   
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+font-family:fantasy;
+font-weight: 100;
+font-size: 60px;
+ letter-spacing: 5px;
+}
+
+
+
+.main{
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+}
+
+.img{
+width: 100% !important;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.col2{
+   display: flex;
+   justify-content: center !important;
+}
+
+@media screen and (max-width:768px) {
+   .col2{
+      justify-content:start !important;
+   }
+
+   .naav{
+      background-color: rgba(27, 27, 27, 0.5) !important;
+   
+   }
+
+   .back, .songc{
+      padding: 0% !important;
+   }
+
+
+}
+.b1{
+   border-radius: 0px !important;
+   background-color:#191a1a !important;
+   color:white !important;
+   letter-spacing: 1px !important;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+   border: 1px solid #191a1a !important;
+   padding: 12px 45px !important;
+   font-size: 15px !important;
+}
+
+.b2{
+   border-radius: 0px !important;
+   background-color: transparent !important;
+   color:white !important;
+   letter-spacing: 1px !important;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif!important;
+   border: 1px solid #dbe2e2 !important;
+   padding: 12px 45px !important;
+   font-size: 15px !important;
+   font-weight: 200 !important;
+}
+
+.b1:hover,.b2:hover {
+   background-color:white !important ;
+   color: #191a1a !important;
+}
+
+.inner,.naav{
+   color: #dbe2e2;
+  max-width: 1100px !important;
+}
+
+
+.toggle{
+color: transparent !important;
+border: transparent !important;
+margin-right: 0px !important;
+padding-right: 0px !important;
+}
+
+.offsetb{
+   background-color: #070707 !important;
+   color: #dbe2e2 !important ;
+}
+
+.dropdown-menu{
+   background-color: #191a1a !important;
+   border: 1px #191a1a !important;
+  
+}
+
+.dropdown-item{
+   color: #dbe2e2 !important; 
+}
+
+.bt3{
+   border-radius: 0px !important;
+}
+
+.form-control{
+   border-radius: 0px !important;
+  
+}
+
+.bdiv{
+   width: 100%;
+   justify-content: center;
+   height: 75%;
+}
+
+.bt4{
+   border-radius: 0px !important;
+}
+
+.songc{
+   padding-bottom: 0px !important;
+   display: block;
+   height: auto;
+   background:linear-gradient(  rgba(5, 5, 5, 1), rgba(7, 7, 7, 1)) !important ;
+  
+}
+
+.spotrow{
+   color: #dbe2e2 !important;
+   margin-left: auto;
+   margin-right: auto;
+   font-family: fantasy;
+   letter-spacing: 3px;
+   
+}
+
+.bt5{
+   padding: 0px !important;
+}
+
+.tooltip-inner{
+background-color: white !important;
+color: #191a1a;
+}
+
+a{
+   text-decoration:none !important;
+}
+
+.ss{
+display: flex;
+justify-content: flex-end;
+}
+
+.search{
+  border-radius: 0px !important;
+   height: 70% !important;
+}
+
+.sbox{
+   height: 60% !important;
+   background-color: transparent;
+   border: 1px solid white !important;
+}
+
+.sbox:focus{
+   background-color: transparent !important;
+   border: 1px solid white !important;
+}
+
+.songnam{
+   color: #dbe2e2 !important;
+}
+
+.sticky{
+position: sticky;
+   bottom: 0; 
+  
+   
+}
+
+ 
+ 
+.aplayer{
+  
+   
+
+  background-color: rgb(251, 250, 250) !important;
+   
+}
+
+
+
+audio::-webkit-media-controls-panel {
+   background-color:rgb(251, 250, 250) !important;
+  
+   }
+
+
+
+
+
+.loginbox{
+   height: 700px !important;
+   display: flex !important;
+   align-items: center !important;
+  
+}
+
+.loginbox a{
+   color: #dbe2e2 !important;
+}
+
+.loginbox a:hover{
+   color: #0f1010 !important;
+}
+
+.artist{
+   width: 50%;
+}
+
+.logoutbtn{
+  height: 70%;
+  border-radius: 0 !important;
+   background-color: transparent;
+   border: 1px solid white !important;
+}
+
+.logoutbtn:hover{
+   background-color:white !important ;
+   color: #191a1a !important;
+}
+
+.audioimg{
+   width: 65px ;
+   height: 70px;
+}
+
+.trackname{
+font-weight: 700;
+font-family:monospace;
+}
